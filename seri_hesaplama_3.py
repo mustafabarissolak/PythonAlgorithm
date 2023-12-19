@@ -17,5 +17,3 @@ def hesapla():
 
 if __name__ == "__main__":
     hesapla()
-
-# 1.662601
