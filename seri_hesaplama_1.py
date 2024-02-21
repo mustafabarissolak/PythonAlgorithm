@@ -10,8 +10,8 @@ def hesapla():
         toplam += a/b
         a += 1
         b += 1
-    print(f"Sonuc: {toplam}")
+    return toplam
 
 if __name__ == "__main__":
-    hesapla()
-
+    seri = hesapla()
+    print(f"Sonuc: {ser}")
