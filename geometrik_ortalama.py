@@ -6,8 +6,9 @@ def hesapla():
     for i in sayilar:
         islem *= int(i)
     sonuc = islem**(1/len(sayilar))
-    print("Geometrik ortalama: ",sonuc)
-
+    return sonuc
 
 if __name__ == "__main__":
     hesapla()
+    G_mean = hesapla()
+    print("Geometrik ortalama: ", G_mean)
