@@ -6,7 +6,7 @@ def hesapla():
     for i in sayilar:
         toplam += int(i)
     sonuc = toplam/len(sayilar)
-    print("Aritmetik ortalama: ", sonuc)
+    return sonuc
 
 if __name__ == "__main__":
     hesapla()
