@@ -14,4 +14,4 @@ def hesapla():
 
 if __name__ == "__main__":
     seri = hesapla()
-    print(f"Sonuc: {ser}")
+    print(f"Sonuc: {seri}")
