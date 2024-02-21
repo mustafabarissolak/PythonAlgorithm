@@ -9,4 +9,5 @@ def hesapla():
     return sonuc
 
 if __name__ == "__main__":
-    hesapla()
+    A_mean = hesapla()
+    print(A_mean)
