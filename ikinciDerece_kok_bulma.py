@@ -8,17 +8,21 @@ def hesapla(a,b,c):
     b_yeni = (-1)*b
 
     if delta < 0:
-        print("Reel kök yok")
+        # print("Reel kök yok")
+        return None
 
     elif delta == 0:
         sonuc = (b_yeni + (delta**(1/2))) / 2*a
-        print("Sonuç çift kat kök: ", sonuc)
+        # print("Sonuç çift kat kök: ", sonuc)
+        return sonuc
 
     else:
         kok1 = (b_yeni + (delta**(1/2))) / 2*a
         kok2 = (b_yeni - (delta**(1/2))) / 2*a
-        print("1. kök: ", kok1)
-        print("2. kök: ", kok2)
+        # print("1. kök: ", kok1)
+        # print("2. kök: ", kok2)
+        return kok1, kok2
 
 if __name__ == "__main__":
-    hesapla(degerA,degerB,degerC)
+    hesapla_ = hesapla(degerA,degerB,degerC)
+    print(hesapla_)
