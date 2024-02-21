@@ -25,6 +25,10 @@ def standartSapma():
     return standartSapmaSonuc
 
 if __name__ == "__main__":
-    print("Ortalama:", aritmetik_ortalama())
-    print("Varyans:", varyans())
-    print("Standart Sapma:", standartSapma())
+    Aort = aritmetik_ortalama()
+    Var = varyans()
+    Std = standartSapma()
+
+    print("Ortalama:", Aort)
+    print("Varyans:", Var)
+    print("Standart Sapma:", Std)
