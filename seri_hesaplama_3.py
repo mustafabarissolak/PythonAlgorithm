@@ -7,13 +7,15 @@ def hesapla():
     b = 3
     toplam = 0
     sayac = 1
+    
     while sayac <= n:
         toplam += a/b
         sayac += 1
         a = sayac**2 - 1
         b = sayac**3 + 2
         
-    print("Sonuç: ", toplam)
+    return toplam
 
 if __name__ == "__main__":
-    hesapla()
+    seri = hesapla()
+    print(f"Sonuc: {seri}")
