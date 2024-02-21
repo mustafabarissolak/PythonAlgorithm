@@ -9,7 +9,8 @@ def hesapla(eleman):
         a,b = b, a+b
         fibonacci.append(a)
 
-    print(fibonacci)
+    return fibonacci
 
 if __name__ == "__main__":
-    hesapla(n_eleman)
+    fib = hesapla(n_eleman)
+    print(fib)
