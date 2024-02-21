@@ -1,5 +1,3 @@
-# Harmonik ortalama, seride bulunan sayıların tersine bölümü ile hesaplanmasıdır.
-
 girdi = input("Hesaplamak için 0'dan farklı sayılar girin: ")
 sayilar = girdi.split()
 
@@ -10,8 +8,8 @@ def hesapla():
         tersineBolum += 1/int(i)
         degerSayisi +=1
     sonuc = degerSayisi/tersineBolum
-    print("Harmonik ortalama: ", sonuc)
-
+    return sonuc
 
 if __name__ == "__main__":
-    hesapla()
+    H_mean = hesapla()
+    print("Harmonik ortalama: ", H_mean)
