@@ -1,8 +1,8 @@
 print("P = n! / (n-r)! ")
+num1 = int(input("n değerini gir: "))
+num2 = int(input("r değerini gir: "))
 
-def hesapla():
-    n = int(input("n değerini gir: "))
-    r = int(input("r değerini gir: "))
+def hesapla(n, r):
     pay = 1
     payda = 1
 
@@ -13,8 +13,8 @@ def hesapla():
         payda *= j
 
     p = pay / payda
-
-    print(f"Permutasyon: ", p)
+    return p
 
 if __name__ == "__main__":
-    hesapla()
+    per = hesapla(num1, num2)
+    print(per)
